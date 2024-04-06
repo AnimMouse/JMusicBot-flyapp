@@ -1,0 +1,7 @@
+kill_signal = "SIGTERM"
+kill_timeout = "2m0s"
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 256
