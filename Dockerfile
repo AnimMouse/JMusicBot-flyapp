@@ -1,4 +1,4 @@
-FROM amazoncorretto:21-alpine
+FROM eclipse-temurin:21
 ARG VERSION=0.3.9
 WORKDIR app
 RUN wget -O JMusicBot.jar https://github.com/jagrosh/MusicBot/releases/download/${VERSION}/JMusicBot-${VERSION}.jar
