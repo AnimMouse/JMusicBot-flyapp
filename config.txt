@@ -1,9 +1,9 @@
 token = ${TOKEN}
-owner = ${OWNER}
+owner = 0
 prefix = "@mention"
 game = "Playing on fly.io"
 status = ONLINE
-songinstatus=false
+songinstatus = false
 altprefix = "NONE"
 
 success = "🎶"
@@ -18,7 +18,7 @@ stayinchannel = false
 maxtime = 0
 alonetimeuntilstop = 0
 playlistsfolder = "Playlists"
-updatealerts=false
+updatealerts = true
 lyrics.default = "A-Z Lyrics"
 
 aliases {
@@ -51,4 +51,4 @@ aliases {
   volume = [ vol ]
 }
 
-eval=false
+eval = false
