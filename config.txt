@@ -16,6 +16,8 @@ help = help
 npimages = false
 stayinchannel = false
 maxtime = 0
+maxytplaylistpages = 10
+skipratio = 0.55
 alonetimeuntilstop = 0
 playlistsfolder = "Playlists"
 updatealerts = true
@@ -37,18 +39,22 @@ aliases {
 
   prefix = [ setprefix ]
   setdj = []
+  setskip = [ setskippercent, skippercent, setskipratio ]
   settc = []
   setvc = []
 
-  forceremove = [ forcedelete, modremove, moddelete ]
+  forceremove = [ forcedelete, modremove, moddelete, modelete ]
   forceskip = [ modskip ]
   movetrack = [ move ]
   pause = []
   playnext = []
   repeat = []
   skipto = [ jumpto ]
-  stop = []
+  stop = [ leave ]
   volume = [ vol ]
 }
 
+loglevel = info
+transforms = {}
 eval = false
+evalengine = "Nashorn"
